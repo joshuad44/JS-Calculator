@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+}
+
+#calculator-body {
+    width: 400px;
+    height: 565px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#display-row {
+    margin: 20px;
+    width: 360px;
+    height: 120px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+#clear-row {
+    margin: 20px;
+    margin-top: 0px;
+    width: 360px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#clear {
+    margin-right: 10px;
+    width: 125px;
+    height: 67.5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 22.5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#delete {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 125px;
+    height: 67.5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: lightcoral;
+    font-size: 22.5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#sign {
+    margin-left: 10px;
+    width: 67.5px   ;
+    height: 67.5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    font-size: 22.5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.numberRows {
+    width: 360px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 12.5px;
+}
+
+.numberButtons {
+    width: 67.5px;
+    height: 67.5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: lightgrey;
+    font-size: 22.5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#display-number {
+    font-size: 32.5px;
+    font-family: 'Orbitron', sans-serif;
+    width: 360px;
+    height: 120px;
+    word-wrap:break-word;
+}
+
+#footer {
+    margin-top: 30px;
+    font-size: 22.5px;
+    font-family: 'Orbitron', sans-serif;
+}
